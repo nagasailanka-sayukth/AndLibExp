@@ -1,6 +1,5 @@
 package com.sayukth.libexp;
 
-import static com.sayukth.mylibrary.SayukthUtils.getName;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -13,6 +12,5 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        getName();
     }
 }
