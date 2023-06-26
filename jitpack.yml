@@ -4,5 +4,5 @@ jdk:
 before_install:
   - ./scripts/prepareJitpackEnvironment.sh
 install:
-  - FILE="-Dfile=mylibrary.aar"
+  - FILE="-Dfile=mylibrary-debug.aar"
   - mvn install:install-file $FILE -DgroupId=com.github.nagasailank-sayukth -DartifactId=AndLibExp -Dversion=1.3 -Dpackaging=aar
