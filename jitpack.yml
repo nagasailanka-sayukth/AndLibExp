@@ -5,4 +5,4 @@ before_install:
   - ./scripts/prepareJitpackEnvironment.sh
 install:
   - FILE="-Dfile=mylibrary-debug.aar"
-  - mvn install:install-file $FILE -DgroupId=com.github.nagasailank-sayukth -DartifactId=AndLibExp -Dversion=1.5 -Dpackaging=aar
+  - mvn install:install-file $FILE -DgroupId=com.github.nagasailank-sayukth -DartifactId=AndLibExp -Dversion=1.7 -Dpackaging=aar
