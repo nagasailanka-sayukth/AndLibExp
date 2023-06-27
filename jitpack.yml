@@ -1,6 +1,6 @@
 # configuration file for building snapshots and releases with jitpack.io
 jdk:
-  - openjdk17
+  - openjdk1_8
 before_install:
   - ./scripts/prepareJitpackEnvironment.sh
 install:
